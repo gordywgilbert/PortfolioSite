@@ -97,15 +97,19 @@ textarea {
 
 html {
     font-family: Verdana, sans-serif;
-    background-image: url("../img/field-background.jpg");
-    background-repeat: no-repeat;
+    background: url(../img/field-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 
 body {
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-bottom: 1%;
+    min-height: 100%;
 }
 
 h1 {
